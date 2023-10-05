@@ -2,7 +2,7 @@ Package: aboutMe
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Braden Charles", "DeMattei", , "bdemattei@carnegiescience.edu", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: What the package does (one paragraph).
 License: Apache License (>= 2)
@@ -11,3 +11,6 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 URL: https://github.com/bcdemattei/aboutMe
 BugReports: https://github.com/bcdemattei/aboutMe/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
